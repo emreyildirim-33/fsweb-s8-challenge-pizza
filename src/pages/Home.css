@@ -1,0 +1,50 @@
+/* src/pages/Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  /* background-image artık Home.jsx'ten inline style olarak geliyor */
+  background-size: cover;
+  background-position: center;
+}
+
+.home-header h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem; /* 48px */
+  color: var(--kirmizi); /* index.css'ten gelen kırmızı */
+  margin: 0;
+  margin-bottom: 2rem; /* Başlıkla alttaki yazı arasına boşluk */
+}
+
+.home-hero h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5rem; /* 24px */
+  color: var(--koyu-gri);
+  margin: 8px 0;
+}
+
+/* "ACIKTIM" Butonu Stili */
+.order-button {
+  display: inline-block;
+  background-color: var(--sari); /* index.css'ten gelen sarı */
+  color: var(--koyu-gri);
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+
+  padding: 12px 48px;
+  border-radius: 30px; /* Kenarları yuvarla */
+  margin-top: 24px;
+
+  transition: all 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #FDC200; /* Sarının biraz daha koyusu */
+  transform: scale(1.05); /* Hafifçe büyüt */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

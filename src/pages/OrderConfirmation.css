@@ -1,0 +1,59 @@
+/* src/pages/OrderConfirmation.css */
+
+.confirmation-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 32px;
+  text-align: center;
+}
+
+.confirmation-page h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 3.5rem;
+  color: var(--koyu-gri);
+  margin: 0;
+}
+
+.confirmation-page h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 2rem;
+  color: var(--kirmizi);
+  margin-top: 1.5rem;
+}
+
+.order-summary {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 32px;
+  margin-top: 2rem;
+  text-align: left; /* Özetin içi sola dayalı olsun */
+}
+
+.summary-item {
+  border-bottom: 2px solid var(--bej);
+  padding: 16px 0;
+}
+
+.summary-item:last-child {
+  border-bottom: none;
+}
+
+.summary-item h4 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.25rem;
+  color: var(--acik-gri);
+  margin: 0 0 8px 0;
+}
+
+.summary-item p,
+.summary-item li {
+  font-size: 1.1rem;
+  color: var(--koyu-gri);
+  margin: 4px 0;
+}
+
+.summary-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
